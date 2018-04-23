@@ -18,11 +18,18 @@ alert("Welcome to this website!")
 </script>
 </head>
 
-<h1>End of website!</h1>
-<button onclick="alert("End of Website!")">Click here if you read the text</button>
+<h4>End of website!</h4>
+<head>
+<script>
+  function runalert() {
+    document.querySelector('h1').innerHTML = 'Crisis Alert!';
+  }
+</script>
+<body>
+<h1>Just an alert</h1>
+<button onclick="runalert()">Click here</button>
 </body>
 </head>
-  
 </body>
 </html>
   
